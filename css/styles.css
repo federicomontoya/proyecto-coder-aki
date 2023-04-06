@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,400;0,500;0,800;1,100&display=swap');
+
+
 *{  
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 
 body{
@@ -23,10 +29,21 @@ body{
     padding-bottom: 15px;
 }
 
+a{ 
+    text-decoration: none;
+        list-style-type: none;
+        color: #000000;
+}
+
+
+.redes-sociales {
+    display: none;
+}
 .nav-lista {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
     list-style-type: none;
     gap: 10px;
 }
@@ -112,6 +129,7 @@ body{
 .nombre-cita {
     font-size: 1.3rem;
     font-style: italic;
+    font-weight: bold;
 }
 
 .portada-index4{
@@ -237,4 +255,156 @@ body{
     gap: 20px;
 }
 
+.titulo-portafolio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #2222222d;
+}
 
+.servicios-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.foto-modelo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.parrafo-fotografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+
+}
+.servicios-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #22222217;
+}
+
+.logo-contacto {
+    width: 100%;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.parrafo-contacto{
+    margin-bottom: 25px;
+}
+
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #aaaaaadc;
+    gap: 40px;
+}
+
+#nombre-usuario{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+#email-usuario {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    height: 30px;
+
+}
+
+#number-usuario {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    height: 30px;
+
+}
+
+#mensaje-usuario {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+}
+.formulario-contacto {
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+#button-enviar {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 15px;
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 15px;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.formulario-contacto1 {
+    display: flex;
+    justify-content: end;
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .logo{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        margin-left: 10px;
+        
+    }
+    .nav-lista {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+        gap: 10px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #d9d9d97a
+    }
+
+    a {
+        color: #000000;
+    }
+
+    .logo-contacto{
+        width: 400px;
+    }
+    
+    .contacto-formulario {
+        border-radius: 20px;
+
+    }
+    }

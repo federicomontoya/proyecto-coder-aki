@@ -409,7 +409,7 @@ a{
     }
     }
 
-    @media (min-width:1201px) and (max-width:1920px) {
+    @media (min-width:1201px) and (max-width:1400px) {
         .logo{
             display: flex;
             flex-direction: row;

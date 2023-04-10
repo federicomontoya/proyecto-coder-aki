@@ -369,7 +369,7 @@ a{
     justify-content: end;
 }
 
-@media (min-width:577px) and (max-width:768px){
+@media (min-width:577px) and (max-width:1200px){
     .logo{
         display: flex;
         flex-direction: row;
@@ -407,4 +407,217 @@ a{
         border-radius: 20px;
 
     }
+    }
+
+    @media (min-width:1201px) and (max-width:1920px) {
+        .logo{
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+            margin-left: 10px;
+            
+        }
+        .nav-lista {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style-type: none;
+            gap: 10px;
+        }
+    
+        .header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 1.2rem;
+            justify-content: space-around;
+            background-color: #d9d9d97a
+        }
+    
+        a {
+            color: #000000;
+        }
+    
+        .logo-contacto{
+            width: 400px;
+        }
+        
+        .contacto-formulario {
+            border-radius: 20px;
+    
+        }
+
+        .redes-sociales {
+            width: 15px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .redes-media {
+            display: flex;
+            gap: 10px;
+        }
+
+        .negrilla {
+            font-style: normal;
+        }
+
+        .portada-index {
+            height: 92vh;
+            display: flex;
+            display: row;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .portada-h2{
+            background-color: black;
+            
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+            padding: 2px;
+            border-radius: 15px;
+        
+        }
+        
+        
+        .portada-h3{
+            width: 700px;
+            font-size: 2rem;
+            text-align: center;
+            padding: 0;
+        }
+        
+        .portada-h4 {
+            width:700px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: italic;
+            font-weight: bolder;
+            margin: 0;
+        
+        }
+        .portada-frontal{
+
+            width: 400px;
+            border-radius: 40px;
+        }
+        .portada-texto{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .imagen-inicio {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .portada-index2 {
+            display: flex;
+            flex-direction: row;
+            font-size: 1.4rem;
+        }
+
+        .portada-h2-2 {
+            font-size: 2rem;
+        }
+
+        .portada-index3 {
+            padding: 200px;
+        }
+
+        .portada-index4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .nosotros-1 {
+            height: 85vh;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .parrafo-nosotros{
+            width: 35vh;
+            font-size: 1.5rem;
+        }
+
+        .foto-modelo {
+            width: 35vh;
+        }
+
+        .h3-nosotros {
+            font-size: 2.7rem;
+        }
+
+        .portafolio-2 {
+            margin-bottom: 20px;
+
+        }
+
+        .titulo-portafolio{
+            display: flex;
+            justify-content: center;
+            font-size: 2.5rem;
+        }
+
+        .container{
+            display: grid;
+            grid-gap: 15px;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .foto-principal {
+            grid-column:  span 2;
+        }
+
+        .portafolio-4 {
+            height: 45vh;
+            background-color: #2222222d;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .videos-portafolio {
+            width: 800px;
+            
+        }
+
+        .servicios-1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .servicios-2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .foto-modelo {
+            margin: 0;
+        }
+
+        .section-1 {
+            height: 85vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .parrafo-nosotros {
+            padding: 0;
+        }
+
+        .logo-contacto {
+            width: 250px;
+        }
     }

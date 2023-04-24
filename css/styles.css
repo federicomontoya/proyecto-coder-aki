@@ -30,6 +30,13 @@ a {
   list-style-type: none;
   color: #000000;
 }
+a:hover {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+  transition-duration: 300ms;
+  border-radius: 10px;
+}
 
 .redes-sociales {
   display: none;
@@ -95,6 +102,14 @@ a {
   }
   a {
     color: #000000;
+  }
+  a:hover {
+    background-color: #000000;
+    color: white;
+    padding: 7px;
+    transition-duration: 300ms;
+    border-radius: 10px;
+    position: static;
   }
   .redes-sociales {
     width: 15px;
@@ -441,6 +456,10 @@ a {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 15px;
+}
+.foto-modelo:hover {
+  transform: scale(1.04);
+  transition-duration: 300ms;
 }
 
 .parrafo-fotografia {

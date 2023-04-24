@@ -1,0 +1,22 @@
+.btn {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: #d9d9d99a;
+    width: 280px;
+    height: 60px;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.btn-posicion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ver-galeria {
+    margin-top: 15px;
+}

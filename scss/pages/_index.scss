@@ -1,0 +1,157 @@
+.portada-h2{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px
+}
+
+.portada-h3{
+
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.portada-h4 {
+    text-align: justify;
+    margin: 40px;
+    font-size: 1.3rem;
+
+}
+
+.portada-frontal{
+    width: 90%;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.imagen-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada-index2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    background-color: #d9d9d99a;
+}
+
+.portada-index3 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.parrafo-3 {
+    font-size: 2rem;
+}
+
+.nombre-cita {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.portada-index4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d9d9d92d;
+}
+
+.foto1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (min-width:1201px) {
+
+    .negrilla {
+        font-style: normal;
+    }
+
+    .portada-index {
+        height: 92vh;
+        display: flex;
+        display: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .portada-h2{
+        background-color: black;
+        
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2px;
+        border-radius: 15px;
+    
+    }
+    
+    
+    .portada-h3{
+        width: 700px;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .portada-h4 {
+        width:700px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: bolder;
+        margin: 0;
+    
+    }
+    .portada-frontal{
+
+        width: 400px;
+        border-radius: 40px;
+    }
+    .portada-texto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .imagen-inicio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .portada-index2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.4rem;
+    }
+
+    .portada-h2-2 {
+        font-size: 2rem;
+    }
+
+    .portada-index3 {
+        padding: 200px;
+    }
+
+    .portada-index4 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    }

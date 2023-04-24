@@ -1,0 +1,128 @@
+.logo-contacto {
+    width: 100%;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.parrafo-contacto{
+    margin-bottom: 25px;
+}
+
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #aaaaaadc;
+    gap: 40px;
+}
+
+#nombre-usuario{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+#email-usuario {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    height: 30px;
+
+}
+
+#number-usuario {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    height: 30px;
+
+}
+
+#mensaje-usuario {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px;
+}
+.formulario-contacto {
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+#button-enviar {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 15px;
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 15px;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.formulario-contacto1 {
+    display: flex;
+    justify-content: end;
+}
+
+@media (min-width:577px) and (max-width:1200px){
+
+
+    .logo-contacto{
+        width: 400px;
+    }
+    
+    .parrafo-contacto {
+        font-size: 1.4rem;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .contacto-formulario {
+        border-radius: 20px;
+
+    }
+    
+    }
+
+    @media (min-width:1201px) {
+
+
+        .servicios-1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .servicios-2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .foto-modelo {
+            margin: 0;
+        }
+
+        .section-1 {
+            height: 85vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .logo-contacto{
+            width: 400px;
+        }
+        
+        .contacto-formulario {
+            border-radius: 20px;
+        }
+    }

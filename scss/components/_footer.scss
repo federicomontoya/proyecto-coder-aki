@@ -2,7 +2,7 @@
 
     height: 20px;
     gap: 80px;
-    background-color: black;
+    background-color: $color-texto-principal;
     margin-top: 15px;
 }
 
@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: white;
-    background-color: black;
+    color: $color-texto-secundario;
+    background-color: $color-texto-principal;
 }
 
 .logo-blanco{
@@ -25,14 +25,14 @@
 
     font-size: 0.7rem;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: $color-texto-secundario;
+    background-color:$color-texto-principal;
     padding: 10px;
 }
 
 .line2 {
-    background-color: black;
-    color: white;
+    background-color: $color-texto-principal;
+    color: $color-texto-secundario;
     font-size: 0.3rem;
     align-items: center;
     text-align: center;

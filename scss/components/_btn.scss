@@ -1,13 +1,20 @@
 .btn {
     display: flex;
     justify-content: space-around;
-    color: rgb(0, 0, 0);
-    background-color: #d9d9d99a;
+    color: $color-texto-principal;
+    background-color: $color-fondo;
     width: 280px;
     height: 60px;
     align-items: center;
     border-radius: 15px;
-    border: 2px solid black;
+    border: 2px solid $color-texto-principal;
+
+    &:hover {
+        color: $color-texto-secundario;
+        background-color: $color-texto-principal;
+        transition-duration: 300ms;
+        transform:scale(1.05);
+    }
 }
 
 .btn-posicion {

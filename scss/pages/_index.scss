@@ -1,6 +1,6 @@
 .portada-h2{
-    background-color: black;
-    color: white;
+    background-color: $color-texto-principal;
+    color: $color-texto-secundario;
     font-size: 2rem;
     text-align: center;
     padding: 20px
@@ -38,7 +38,7 @@
     align-items: center;
     text-align: center;
     height: 50vh;
-    background-color: #d9d9d99a;
+    background-color: $color-fondo;
 }
 
 .portada-index3 {
@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #d9d9d92d;
+    background-color: $color-fondo;
 }
 
 .foto1 {
@@ -90,9 +90,9 @@
     }
     
     .portada-h2{
-        background-color: black;
+        background-color: $color-texto-principal;
         
-        color: white;
+        color:$color-texto-secundario;
         font-size: 3rem;
         text-align: center;
         padding: 2px;
@@ -152,6 +152,10 @@
     .portada-index4 {
         display: flex;
         justify-content: center;
+    }
+
+    .foto1{
+        width: 800px;
     }
     
     }

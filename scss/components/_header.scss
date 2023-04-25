@@ -1,5 +1,5 @@
 .header {
-    background-color: #d9d9d965
+    background-color: $color-fondo;
 }
 .logo{
     display: flex;
@@ -8,13 +8,13 @@
     padding-bottom: 15px;
 }
 
-a{ 
+nav ul li a{ 
     text-decoration: none;
         list-style-type: none;
-        color: #000000;
+        color: $color-texto-principal;
         &:hover {
-            background-color: #000000;
-            color: white;
+            background-color: $color-texto-principal;
+            color: $color-texto-secundario;
             padding: 5px;
             transition-duration: 300ms;
             border-radius: 10px;
@@ -58,11 +58,11 @@ a{
         justify-content: space-between;
         padding-left: 10px;
         padding-right: 10px;
-        background-color: #d9d9d97a
+        background-color: $color-fondo;
     }
 
-    a {
-        color: #000000;
+    nav ul li a {
+        color: $color-texto-principal;
     }
     
     }
@@ -89,14 +89,14 @@ a{
             align-items: center;
             font-size: 1.2rem;
             justify-content: space-around;
-            background-color: #d9d9d97a
+            background-color: $color-fondo;
         }
     
-        a {
-            color: #000000;
+        nav ul li a {
+            color: $color-texto-principal;
             &:hover {
-                background-color: #000000;
-                color: white;
+                background-color: $color-texto-principal;
+                color: $color-texto-secundario;
                 padding: 7px;
                 transition-duration: 300ms;
                 border-radius: 10px;

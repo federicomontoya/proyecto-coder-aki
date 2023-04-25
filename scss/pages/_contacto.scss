@@ -65,8 +65,14 @@
     background-color: #eeeeee;
     padding: 15px;
     margin: 15px;
-    color: #000000;
+    color: $color-texto-principal;
     font-size: 1.5rem;
+    &:hover {
+        color: $color-texto-secundario;
+        background-color: $color-texto-principal;
+        transition-duration: 300ms;
+        transform: scale(1.05);
+    }
 }
 
 .formulario-contacto1 {

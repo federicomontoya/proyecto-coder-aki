@@ -13,7 +13,7 @@
     align-items: center;
     text-align: center;
     padding: 15px;
-    background-color: #2222222d;
+    background-color: $color-fondo;
 }
 
 @media (min-width:1201px) {
@@ -35,9 +35,11 @@
         grid-column:  span 2;
     }
 
+
+
     .portafolio-4 {
         height: 45vh;
-        background-color: #2222222d;
+        background-color: $color-fondo;
         display: flex;
         flex-direction: row;
     }
